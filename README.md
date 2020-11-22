@@ -6,5 +6,6 @@ Change the intent file as you prefer.
 You can change the languages in file nltk_utils
 
 # Train
-Run train.py after every time you change the intent file. 
+Run the nltk_utils.py, remember to uncomment 
+Run train.py every time you change the intent file. 
 The model is based on torch.
