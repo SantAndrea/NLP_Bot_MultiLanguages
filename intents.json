@@ -1,0 +1,17 @@
+{
+    "intents": [
+    {"tag": "Presentazione",
+        "patterns": ["Come ti chiami?", "Sei vivo?", "Chi sei?", "Con chi sto parlando?"],
+        "responses": ["Sono un'intelligenza artificiale, sono qui per aiutarti"]
+    },
+    {"tag": "Ciao",
+        "patterns": ["Ciao", "Salve", "Buongiorno", "Buonasera"],
+        "responses": ["Ciao, sono qui per aiutarti, fammi una domanda, specifica che ruolo occupi (alunno, professore, preside) e cercherò di esserti d'aiuto"]
+    },
+    {"tag": "Insert a tag for question",
+      "patterns": ["Question pattern 1", "Question pattern 2",
+        "Question pattern 3", "Go on..."],
+      "responses": ["Anwers"]
+    }
+  ]
+}
