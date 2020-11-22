@@ -69,8 +69,8 @@ def handle(message):
     content_type, chat_type, chat_id = telepot.glance(message)
     answer = make_answer(message['text'])
     if message['text'] == '/start':
-        bot.sendMessage(chat_id, "Ciao, sono qui per aiutarti, fammi una domanda e cercherò di esserti d'aiuto. \nRicorda di specificare il ruolo che occupi (professore, alunno, vicario), così potrò essere più preciso")
-        #bot.sendPhoto(chat_id, (open('/Users/andrea/Desktop/chestnut/Anagramma/anagramma.png', "rb")))
+        bot.sendMessage(chat_id, "Ciao, sono qui per aiutarti, fammi una domanda e cercherò di esserti d'aiuto.")
+        #bot.sendPhoto(chat_id, (open('', "rb")))
     else:
         bot.sendMessage(chat_id, answer)
  
